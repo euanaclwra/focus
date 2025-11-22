@@ -1,0 +1,29 @@
+inherited frmLogin_NmXhdpiPh: TfrmLogin_NmXhdpiPh
+  ClientHeight = 615
+  ClientWidth = 400
+  DesignerMasterStyle = 0
+  inherited imgLogo: TImage
+    MultiResBitmap.Height = 1024
+    MultiResBitmap.Width = 1024
+    Size.Width = 400.000000000000000000
+  end
+  inherited ltForm: TScaledLayout
+    OriginalHeight = 486.000000000000000000
+    Size.Width = 400.000000000000000000
+    Size.Height = 486.000000000000000000
+    inherited ltLogin: TLayout
+      Size.Width = 400.000000000000000000
+      inherited edtLogin: TEdit
+        Size.Width = 200.000000000000000000
+        Size.Height = 32.000000000000000000
+        inherited lnLogin: TLine
+          Position.Y = -18.000000000000000000
+          Size.Width = 200.000000000000000000
+        end
+        inherited txtLogin: TText
+          Size.Width = 200.000000000000000000
+        end
+      end
+    end
+  end
+end

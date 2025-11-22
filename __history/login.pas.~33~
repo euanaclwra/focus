@@ -1,0 +1,76 @@
+unit login;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Objects,
+  FMX.Layouts, FMX.Controls.Presentation, FMX.Edit, System.IOUtils, FMX.FontManager;
+
+type
+  TfrmLogin = class(TForm)
+    imgLogo: TImage;
+    ltForm: TScaledLayout;
+    ltLogin: TLayout;
+    edtLogin: TEdit;
+    txtLogin: TText;
+    rtLogin: TRectangle;
+    ltSenha: TLayout;
+    edtSenha: TEdit;
+    txtSenha: TText;
+    rtSenha: TRectangle;
+    procedure FormCreate(Sender: TObject);
+  private
+    procedure AjustaEscalaTexto;
+  public
+    { Public declarations }
+  end;
+
+var
+  frmLogin: TfrmLogin;
+  FontStream: TStream;
+
+implementation
+
+{$R *.fmx}
+{$R *.SmXhdpiPh.fmx ANDROID}
+{$R *.NmXhdpiPh.fmx ANDROID}
+{$R *.XLgXhdpiTb.fmx ANDROID}
+{$R *.LgXhdpiPh.fmx ANDROID}
+
+procedure TfrmLogin.FormCreate(Sender: TObject);
+begin
+  {$IF DEFINED(ANDROID)}
+    AjustaEscalaTexto;
+  {$ENDIF}
+end;
+
+// Ajusta a fonte distorcida no Android
+procedure TfrmLogin.AjustaEscalaTexto;
+var
+  Scale: Single;
+
+  procedure AjustaFonte(Control: TControl);
+  var
+    i: Integer;
+  begin
+    Scale := 1.5;
+
+    if Control is TText then
+    begin
+      TText(Control).TextSettings.Font.Family := 'Montserrat Thin';
+      TText(Control).Scale.X := Scale;
+    end;
+
+    for i := 0 to Control.ChildrenCount - 1 do
+      AjustaFonte(TControl(Control.Children[i]));
+  end;
+
+var
+  i: Integer;
+begin
+  for i := 0 to frmLogin.ChildrenCount - 1 do
+    AjustaFonte(TControl(frmLogin.Children[i]));
+end;
+
+end.

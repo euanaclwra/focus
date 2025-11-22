@@ -1,0 +1,63 @@
+inherited frmLogin_LgXhdpiPh: TfrmLogin_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 0
+  inherited imgLogo: TImage
+    MultiResBitmap.Height = 1024
+    MultiResBitmap.Width = 1024
+    Size.Width = 450.000000000000000000
+  end
+  inherited ltForm: TScaledLayout
+    OriginalWidth = 450.000000000000000000
+    OriginalHeight = 566.000000000000000000
+    Size.Width = 450.000000000000000000
+    Size.Height = 566.000000000000000000
+    inherited ltLogin: TLayout
+      Size.Width = 450.000000000000000000
+      inherited edtLogin: TEdit
+        Size.Width = 250.000000000000000000
+        Size.Height = 32.000000000000000000
+        inherited txtLogin: TText [0]
+          Margins.Bottom = 5.000000000000000000
+          Scale.X = 2.000000000000000000
+          Size.Width = 125.000000000000000000
+        end
+        inherited rtLogin: TRectangle [1]
+          Size.Width = 250.000000000000000000
+          Size.Height = 34.809997558593750000
+        end
+      end
+    end
+    inherited ltSenha: TLayout
+      Size.Width = 450.000000000000000000
+      inherited edtSenha: TEdit
+        Size.Width = 250.000000000000000000
+        Size.Height = 32.000000000000000000
+        inherited txtSenha: TText [0]
+          Size.Width = 250.000000000000000000
+        end
+        inherited rtSenha: TRectangle [1]
+          Size.Width = 250.000000000000000000
+          Size.Height = 39.809997558593750000
+        end
+      end
+    end
+    inherited ltEntrar: TLayout
+      Align = Top
+      Size.Width = 450.000000000000000000
+      Size.Height = 191.000000000000000000
+      inherited btnEntrar: TButton
+        Size.Width = 250.000000000000000000
+        Size.Height = 51.000000000000000000
+        TextSettings.Font.StyleExt = {00050000000000000004000000}
+        inherited rtEntrar: TRectangle
+          Size.Width = 250.000000000000000000
+          Size.Height = 51.000000000000000000
+          inherited txtEntrar: TText
+            TextSettings.Font.StyleExt = {00050000000000000004000000}
+          end
+        end
+      end
+    end
+  end
+end

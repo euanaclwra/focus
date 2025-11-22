@@ -5,7 +5,8 @@ interface
 uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
   FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Objects,
-  FMX.Layouts, FMX.Controls.Presentation, FMX.Edit;
+  FMX.Layouts, FMX.Controls.Presentation, FMX.Edit, System.IOUtils, FMX.FontManager,
+  FMX.StdCtrls;
 
 type
   TfrmLogin = class(TForm)
@@ -13,18 +14,28 @@ type
     ltForm: TScaledLayout;
     ltLogin: TLayout;
     edtLogin: TEdit;
-  private
-    { Private declarations }
-  public
-    { Public declarations }
+    txtLogin: TText;
+    ltEntrar: TLayout;
+    btnEntrar: TButton;
+    rtEntrar: TRectangle;
+    txtEntrar: TText;
+    ltSenha: TLayout;
+    edtSenha: TEdit;
+    txtSenha: TText;
+    lnLogin: TLine;
+    lnSenha: TLine;
   end;
 
 var
   frmLogin: TfrmLogin;
+  FontStream: TStream;
 
 implementation
 
 {$R *.fmx}
 {$R *.SmXhdpiPh.fmx ANDROID}
+{$R *.NmXhdpiPh.fmx ANDROID}
+{$R *.XLgXhdpiTb.fmx ANDROID}
+{$R *.LgXhdpiPh.fmx ANDROID}
 
 end.

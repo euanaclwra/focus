@@ -4,6 +4,7 @@ object frmLogin: TfrmLogin
   Caption = 'Login'
   ClientHeight = 480
   ClientWidth = 640
+  Fill.Kind = Solid
   FormFactor.Width = 320
   FormFactor.Height = 480
   FormFactor.Devices = [Desktop]
@@ -6105,16 +6106,149 @@ object frmLogin: TfrmLogin
     object ltLogin: TLayout
       Align = Top
       Size.Width = 640.000000000000000000
-      Size.Height = 100.000000000000000000
+      Size.Height = 81.000000000000000000
       Size.PlatformDefault = False
-      TabOrder = 0
+      TabOrder = 1
       object edtLogin: TEdit
         Touch.InteractiveGestures = [LongTap, DoubleTap]
-        Align = Center
+        Align = Client
+        StyleLookup = 'transparentedit'
         TabOrder = 0
-        Size.Width = 195.000000000000000000
-        Size.Height = 36.000000000000000000
+        TextSettings.Font.Family = 'Montserrat'
+        TextSettings.Font.Size = 11.000000000000000000
+        Margins.Left = 100.000000000000000000
+        Margins.Top = 25.000000000000000000
+        Margins.Right = 100.000000000000000000
+        Margins.Bottom = 25.000000000000000000
+        Size.Width = 440.000000000000000000
+        Size.Height = 31.000000000000000000
         Size.PlatformDefault = False
+        StyledSettings = [Style, FontColor]
+        object txtLogin: TText
+          Align = Top
+          AutoSize = True
+          Locked = True
+          HitTest = False
+          Margins.Top = -20.000000000000000000
+          Position.Y = -20.000000000000000000
+          Size.Width = 440.000000000000000000
+          Size.Height = 12.190000534057620000
+          Size.PlatformDefault = False
+          Text = 'Login'
+          TextSettings.Font.Family = 'Montserrat'
+          TextSettings.Font.Size = 10.000000000000000000
+          TextSettings.FontColor = xFF532C82
+          TextSettings.HorzAlign = Leading
+        end
+        object lnLogin: TLine
+          Align = Bottom
+          Locked = True
+          HitTest = False
+          LineType = Bottom
+          Position.Y = -19.000000000000000000
+          Size.Width = 440.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Color = xFF532C83
+        end
+      end
+    end
+    object ltEntrar: TLayout
+      Align = Client
+      Size.Width = 640.000000000000000000
+      Size.Height = 189.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      object btnEntrar: TButton
+        Align = Client
+        StyledSettings = [FontColor]
+        Margins.Left = 100.000000000000000000
+        Margins.Top = 70.000000000000000000
+        Margins.Right = 100.000000000000000000
+        Margins.Bottom = 70.000000000000000000
+        Size.Width = 440.000000000000000000
+        Size.Height = 49.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        TextSettings.Font.Family = 'Montserrat'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.Font.StyleExt = {00050000000000000004000000}
+        TextSettings.Trimming = None
+        object rtEntrar: TRectangle
+          Align = Client
+          Cursor = crHandPoint
+          Fill.Color = xFF532C83
+          HitTest = False
+          Size.Width = 440.000000000000000000
+          Size.Height = 49.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          Stroke.Thickness = 0.000000000000000000
+          object txtEntrar: TText
+            Align = Center
+            HitTest = False
+            Size.Width = 87.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+            Text = 'Entrar'
+            TextSettings.Font.Family = 'Montserrat'
+            TextSettings.Font.Size = 14.000000000000000000
+            TextSettings.Font.StyleExt = {00050000000000000004000000}
+            TextSettings.FontColor = claWhite
+          end
+        end
+      end
+    end
+    object ltSenha: TLayout
+      Align = Top
+      Position.Y = 81.000000000000000000
+      Size.Width = 640.000000000000000000
+      Size.Height = 81.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object edtSenha: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Client
+        StyleLookup = 'transparentedit'
+        TabOrder = 0
+        Password = True
+        TextSettings.Font.Family = 'Montserrat'
+        TextSettings.Font.Size = 11.000000000000000000
+        Margins.Left = 100.000000000000000000
+        Margins.Top = 25.000000000000000000
+        Margins.Right = 100.000000000000000000
+        Margins.Bottom = 25.000000000000000000
+        Size.Width = 440.000000000000000000
+        Size.Height = 31.000000000000000000
+        Size.PlatformDefault = False
+        StyledSettings = [Style, FontColor]
+        object txtSenha: TText
+          Align = Top
+          AutoSize = True
+          Locked = True
+          HitTest = False
+          Margins.Top = -20.000000000000000000
+          Position.Y = -20.000000000000000000
+          Size.Width = 440.000000000000000000
+          Size.Height = 12.190000534057620000
+          Size.PlatformDefault = False
+          Text = 'Senha'
+          TextSettings.Font.Family = 'Montserrat'
+          TextSettings.Font.Size = 10.000000000000000000
+          TextSettings.FontColor = xFF532C82
+          TextSettings.HorzAlign = Leading
+        end
+        object lnSenha: TLine
+          Align = Bottom
+          Locked = True
+          HitTest = False
+          LineType = Bottom
+          Position.Y = -19.000000000000000000
+          Size.Width = 440.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Color = xFF532C83
+        end
       end
     end
   end
