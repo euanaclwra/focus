@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2025/11/22 17:09:57.027,=C:\Users\Oem\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/11/22 17:10:20.324,C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus.dproj=C:\Users\Oem\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2025/11/22 17:11:03.964,C:\Users\Oem\Documents\Embarcadero\Studio\Projects\login.fmx=C:\Users\Oem\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2025/11/22 17:11:03.964,C:\Users\Oem\Documents\Embarcadero\Studio\Projects\login.pas=C:\Users\Oem\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/11/22 17:11:23.777,C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus\login.pas=C:\Users\Oem\Documents\Embarcadero\Studio\Projects\login.pas</Transaction>
+    <Transaction>2025/11/22 17:11:23.777,C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus\login.fmx=C:\Users\Oem\Documents\Embarcadero\Studio\Projects\login.fmx</Transaction>
+    <Transaction>2025/11/22 17:17:09.746,C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus\focus.dproj=C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
