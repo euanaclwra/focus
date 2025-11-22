@@ -1,0 +1,63 @@
+# ===== Delphi project files =====
+*.dproj.local
+*.identcache
+*.local
+*.dsk
+*.tvsconfig
+*.stat
+*.otares
+
+# Backup / temp Delphi files
+*.~*
+*.bak
+*.tmp
+
+# Compiled units
+*.dcu
+*.dcp
+*.bpl
+*.dcpil
+*.o
+*.obj
+
+# C++ Builder intermediates (às vezes o Delphi cria)
+*.hpp
+*.hhp
+*.map
+
+# FMX designer cache
+*.fmx.*.png
+
+# ===== Build directories =====
+/Win32/
+/Win64/
+/OSX32/
+/OSX64/
+/iOSDevice64/
+/iOSSimulator/
+/Android/
+
+# ===== FireMonkey Android output =====
+*.apk
+*.aab
+*.dex
+*.so
+*.jar
+
+# ===== IDE history =====
+__history/
+/__recovery/
+
+# ===== Logs =====
+*.log
+
+# ===== Secrets / API Keys / Keystore =====
+*.keystore
+*.jks
+*.pem
+*.p12
+*.key
+
+# Google API Key configs (previne vazamento)
+google-services.json
+GoogleService-Info.plist
