@@ -6131,7 +6131,7 @@ object frmLogin: TfrmLogin
           HitTest = False
           Margins.Top = -20.000000000000000000
           Position.Y = -20.000000000000000000
-          Size.Width = 440.000000000000000000
+          Size.Width = 31.713335037231450000
           Size.Height = 12.190000534057620000
           Size.PlatformDefault = False
           Text = 'Login'
@@ -6230,7 +6230,7 @@ object frmLogin: TfrmLogin
           HitTest = False
           Margins.Top = -20.000000000000000000
           Position.Y = -20.000000000000000000
-          Size.Width = 440.000000000000000000
+          Size.Width = 34.943332672119140000
           Size.Height = 12.190000534057620000
           Size.PlatformDefault = False
           Text = 'Senha'

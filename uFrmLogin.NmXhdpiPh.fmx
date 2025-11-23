@@ -18,9 +18,6 @@ inherited frmLogin_NmXhdpiPh: TfrmLogin_NmXhdpiPh
         Opacity = 0.000000000000000000
         Size.Width = 200.000000000000000000
         Size.Height = 32.000000000000000000
-        inherited txtLogin: TText
-          Size.Width = 200.000000000000000000
-        end
         inherited lnLogin: TLine
           Position.Y = -18.000000000000000000
           Size.Width = 200.000000000000000000
@@ -49,9 +46,6 @@ inherited frmLogin_NmXhdpiPh: TfrmLogin_NmXhdpiPh
       inherited edtSenha: TEdit
         Size.Width = 200.000000000000000000
         Size.Height = 32.000000000000000000
-        inherited txtSenha: TText
-          Size.Width = 200.000000000000000000
-        end
         inherited lnSenha: TLine
           Position.Y = -18.000000000000000000
           Size.Width = 200.000000000000000000

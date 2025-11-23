@@ -219,6 +219,10 @@
             <Form>frmTarefas</Form>
             <FormType>fmx</FormType>
         </DCCReference>
+        <DCCReference Include="uDataFrmTarefa.pas">
+            <Form>dataFrmTarefa</Form>
+            <FormType>fmx</FormType>
+        </DCCReference>
         <RcItem Include="montserrat.ttf">
             <ResourceType>FONT</ResourceType>
             <ResourceId>1</ResourceId>

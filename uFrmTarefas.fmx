@@ -1,7 +1,7 @@
 object frmTarefas: TfrmTarefas
   Left = 0
   Top = 0
-  Caption = 'frmTarefas'
+  Caption = 'Tarefas'
   ClientHeight = 480
   ClientWidth = 640
   Fill.Kind = Solid
@@ -6174,11 +6174,13 @@ object frmTarefas: TfrmTarefas
     end
     object ltTarefa1: TLayout
       Align = Top
+      HitTest = True
       Position.Y = 32.000000000000000000
       Size.Width = 620.000000000000000000
       Size.Height = 32.000000000000000000
       Size.PlatformDefault = False
       TabOrder = 2
+      OnClick = ltTarefa1Click
       object txtData1: TText
         Align = Left
         HitTest = False
@@ -6227,11 +6229,13 @@ object frmTarefas: TfrmTarefas
     end
     object ltTarefa2: TLayout
       Align = Top
+      HitTest = True
       Position.Y = 64.000000000000000000
       Size.Width = 620.000000000000000000
       Size.Height = 32.000000000000000000
       Size.PlatformDefault = False
       TabOrder = 1
+      OnClick = ltTarefa2Click
       object txtData2: TText
         Align = Left
         HitTest = False
@@ -6280,11 +6284,13 @@ object frmTarefas: TfrmTarefas
     end
     object ltTarefa3: TLayout
       Align = Top
+      HitTest = True
       Position.Y = 96.000000000000000000
       Size.Width = 620.000000000000000000
       Size.Height = 32.000000000000000000
       Size.PlatformDefault = False
       TabOrder = 0
+      OnClick = ltTarefa3Click
       object txtData3: TText
         Align = Left
         HitTest = False

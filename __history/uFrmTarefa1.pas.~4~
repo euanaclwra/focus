@@ -1,0 +1,31 @@
+unit uFrmTarefa1;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Objects,
+  FMX.Layouts, FMX.Controls.Presentation, FMX.Edit;
+
+type
+  TfrmTarefa1 = class(TForm)
+    imgLogo: TImage;
+    ltDataHora: TLayout;
+    ltData: TLayout;
+    edtLogin: TEdit;
+    txtLogin: TText;
+    lnLogin: TLine;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmTarefa1: TfrmTarefa1;
+
+implementation
+
+{$R *.fmx}
+
+end.

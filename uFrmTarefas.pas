@@ -5,7 +5,7 @@ interface
 uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
   FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Objects,
-  FMX.Layouts, FMX.ListBox;
+  FMX.Layouts, FMX.ListBox, uDataFrmTarefa;
 
 type
   TfrmTarefas = class(TForm)
@@ -34,6 +34,10 @@ type
     txtTitulo3: TText;
     lnTarefa3: TLine;
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
+    procedure AbreDataFormTarefa(Sender: TObject);
+    procedure ltTarefa1Click(Sender: TObject);
+    procedure ltTarefa2Click(Sender: TObject);
+    procedure ltTarefa3Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -53,6 +57,48 @@ implementation
 procedure TfrmTarefas.FormClose(Sender: TObject; var Action: TCloseAction);
 begin
   Action := TCloseAction.caFree;
+end;
+
+procedure TfrmTarefas.AbreDataFormTarefa(Sender: TObject);
+var
+  dataFrmTarefa: TdataFrmTarefa;
+  Hora, Titulo: String;
+begin
+  dataFrmTarefa := TdataFrmTarefa.Create(Self);
+
+  // Preenche os dados de acordo com a tarefa selecionada
+  if Sender = ltTarefa1 then begin
+    Hora := '08:00';
+    Titulo := 'Caminhada matinal';
+  end
+  else if Sender = ltTarefa2 then begin
+    Hora := '10:00';
+    Titulo := 'Comprar mantimentos';
+  end else begin
+    Hora := '14:00';
+    Titulo := 'Estudar Delphi';
+  end;
+
+  dataFrmTarefa.edtData.Text := '20/11/2025';
+  dataFrmTarefa.edtHora.Text := Hora;
+  dataFrmTarefa.edtTitulo.Text := Titulo;
+
+  dataFrmTarefa.Show;
+end;
+
+procedure TfrmTarefas.ltTarefa1Click(Sender: TObject);
+begin
+  AbreDataFormTarefa(Sender);
+end;
+
+procedure TfrmTarefas.ltTarefa2Click(Sender: TObject);
+begin
+  AbreDataFormTarefa(Sender);
+end;
+
+procedure TfrmTarefas.ltTarefa3Click(Sender: TObject);
+begin
+  AbreDataFormTarefa(Sender);
 end;
 
 end.

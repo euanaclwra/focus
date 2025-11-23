@@ -38,6 +38,7 @@ implementation
 {$R *.NmXhdpiPh.fmx ANDROID}
 {$R *.XLgXhdpiTb.fmx ANDROID}
 {$R *.LgXhdpiPh.fmx ANDROID}
+{$R *.Windows.fmx MSWINDOWS}
 
 procedure TfrmLogin.btnEntrarClick(Sender: TObject);
 var

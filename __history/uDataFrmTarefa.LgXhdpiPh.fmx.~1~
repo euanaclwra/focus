@@ -1,0 +1,72 @@
+inherited dataFrmTarefa_LgXhdpiPh: TdataFrmTarefa_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 0
+  inherited imgLogo: TImage
+    MultiResBitmap.Height = 1024
+    MultiResBitmap.Width = 1024
+    Size.Width = 450.000000000000000000
+  end
+  inherited ltData: TLayout
+    Size.Width = 450.000000000000000000
+    inherited edtData: TEdit
+      Size.Width = 250.000000000000000000
+      Size.Height = 32.000000000000000000
+      inherited txtData: TText
+        Size.Width = 250.000000000000000000
+      end
+      inherited lnData: TLine
+        Position.Y = -18.000000000000000000
+        Size.Width = 250.000000000000000000
+      end
+    end
+  end
+  inherited ltHora: TLayout
+    Size.Width = 450.000000000000000000
+    inherited edtHora: TEdit
+      Size.Width = 250.000000000000000000
+      Size.Height = 32.000000000000000000
+      inherited txtHora: TText
+        Size.Width = 250.000000000000000000
+      end
+      inherited lnHora: TLine
+        Position.Y = -18.000000000000000000
+        Size.Width = 250.000000000000000000
+      end
+    end
+  end
+  inherited txtTarefas: TText
+    Size.Width = 430.000000000000000000
+    TextSettings.Font.StyleExt = {00060000000000000004000000}
+  end
+  inherited ltTitulo: TLayout
+    Size.Width = 450.000000000000000000
+    inherited edtTitulo: TEdit
+      Size.Width = 250.000000000000000000
+      Size.Height = 32.000000000000000000
+      inherited txtTitulo: TText
+        Size.Width = 250.000000000000000000
+      end
+      inherited lnTitulo: TLine
+        Position.Y = -18.000000000000000000
+        Size.Width = 250.000000000000000000
+      end
+    end
+  end
+  inherited ltSalvar: TLayout
+    Position.Y = 504.000000000000000000
+    Size.Width = 450.000000000000000000
+    inherited btnSalvar: TButton
+      Size.Width = 250.000000000000000000
+      TextSettings.Font.StyleExt = {00050000000000000004000000}
+      OnClick = nil
+      inherited rtSalvar: TRectangle
+        Size.Width = 250.000000000000000000
+        inherited txtSalvar: TText
+          Scale.X = 1.500000000000000000
+          TextSettings.Font.StyleExt = {00050000000000000004000000}
+        end
+      end
+    end
+  end
+end

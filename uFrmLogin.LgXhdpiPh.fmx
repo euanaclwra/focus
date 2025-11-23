@@ -19,7 +19,6 @@ inherited frmLogin_LgXhdpiPh: TfrmLogin_LgXhdpiPh
         Size.Height = 32.000000000000000000
         inherited txtLogin: TText
           Scale.X = 1.500000000000000000
-          Size.Width = 31.713335037231450000
         end
         inherited lnLogin: TLine
           Position.Y = -18.000000000000000000
@@ -54,7 +53,6 @@ inherited frmLogin_LgXhdpiPh: TfrmLogin_LgXhdpiPh
         Size.Height = 32.000000000000000000
         inherited txtSenha: TText
           Scale.X = 1.500000000000000000
-          Size.Width = 34.943332672119140000
         end
         inherited lnSenha: TLine
           Position.Y = -18.000000000000000000
