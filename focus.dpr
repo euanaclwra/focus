@@ -1,11 +1,14 @@
 program focus;
 
+
+
 {$R *.dres}
 
 uses
   System.StartUpCopy,
   FMX.Forms,
-  login in 'login.pas' {frmLogin};
+  uFrmLogin in 'uFrmLogin.pas' {frmLogin},
+  uFrmTarefas in 'uFrmTarefas.pas' {frmTarefas};
 
 {$R *.res}
 

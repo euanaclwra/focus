@@ -1,0 +1,58 @@
+unit uFrmTarefas;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Objects,
+  FMX.Layouts, FMX.ListBox;
+
+type
+  TfrmTarefas = class(TForm)
+    imgLogo: TImage;
+    txtTarefas: TText;
+    StyleBook1: TStyleBook;
+    txtData: TText;
+    txtHora: TText;
+    txtTitulo: TText;
+    ltHeader: TLayout;
+    lnHeader: TLine;
+    ltGrid: TLayout;
+    ltTarefa1: TLayout;
+    txtData1: TText;
+    txtHora1: TText;
+    txtTitulo1: TText;
+    lnTarefa1: TLine;
+    ltTarefa2: TLayout;
+    txtData2: TText;
+    txtHora2: TText;
+    txtTitulo2: TText;
+    lnTarefa2: TLine;
+    ltTarefa3: TLayout;
+    txtData3: TText;
+    txtHora3: TText;
+    txtTitulo3: TText;
+    lnTarefa3: TLine;
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmTarefas: TfrmTarefas;
+
+implementation
+
+{$R *.fmx}
+{$R *.LgXhdpiPh.fmx ANDROID}
+{$R *.NmXhdpiPh.fmx ANDROID}
+{$R *.Windows.fmx MSWINDOWS}
+
+procedure TfrmTarefas.FormClose(Sender: TObject; var Action: TCloseAction);
+begin
+  Action := TCloseAction.caFree;
+end;
+
+end.

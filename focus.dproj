@@ -211,11 +211,15 @@
         <DelphiCompile Include="$(MainSource)">
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
-        <DCCReference Include="login.pas">
+        <DCCReference Include="uFrmLogin.pas">
             <Form>frmLogin</Form>
             <FormType>fmx</FormType>
         </DCCReference>
-        <RcItem Include="..\..\..\..\..\Downloads\Montserrat\montserrat.ttf">
+        <DCCReference Include="uFrmTarefas.pas">
+            <Form>frmTarefas</Form>
+            <FormType>fmx</FormType>
+        </DCCReference>
+        <RcItem Include="montserrat.ttf">
             <ResourceType>FONT</ResourceType>
             <ResourceId>1</ResourceId>
         </RcItem>
@@ -412,12 +416,6 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="..\..\..\..\..\Downloads\Montserrat\montserrat.ttf" Configuration="Debug" Class="ProjectFile">
-                    <Platform Name="Android64">
-                        <RemoteDir>.\assets\internal\</RemoteDir>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
                 <DeployFile LocalName="Android64\Debug\AndroidManifest.xml" Configuration="Debug" Class="ProjectAndroidManifest">
                     <Platform Name="Android64">
                         <Overwrite>true</Overwrite>
@@ -493,6 +491,12 @@
                 <DeployFile LocalName="Win32\Debug\focus.exe" Configuration="Debug" Class="ProjectOutput">
                     <Platform Name="Win32">
                         <RemoteName>focus.exe</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="montserrat.ttf" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Android64">
+                        <RemoteDir>.\assets\internal\</RemoteDir>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>

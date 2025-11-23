@@ -1,0 +1,56 @@
+inherited frmTarefas_LgXhdpiPh: TfrmTarefas_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 0
+  inherited imgLogo: TImage
+    MultiResBitmap.Height = 1024
+    MultiResBitmap.Width = 1024
+    Size.Width = 450.000000000000000000
+  end
+  inherited txtTarefas: TText
+    Size.Width = 430.000000000000000000
+    TextSettings.Font.StyleExt = {00060000000000000004000000}
+  end
+  inherited StyleBook1: TStyleBook [2]
+  end
+  inherited ltGrid: TLayout [3]
+    Margins.Top = 10.000000000000000000
+    Size.Width = 430.000000000000000000
+    Size.Height = 516.000000000000000000
+    inherited ltHeader: TLayout
+      Margins.Left = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Size.Width = 410.000000000000000000
+      inherited txtData: TText
+        TextSettings.Font.StyleExt = {00050000000000000004000000}
+      end
+      inherited txtHora: TText
+        TextSettings.Font.StyleExt = {00050000000000000004000000}
+      end
+      inherited txtTitulo: TText
+        Size.Width = 230.000000000000000000
+        TextSettings.Font.StyleExt = {00050000000000000004000000}
+      end
+      inherited lnHeader: TLine
+        Size.Width = 410.000000000000000000
+      end
+    end
+    inherited ltTarefa1: TLayout
+      Size.Width = 430.000000000000000000
+      inherited txtData1: TText
+        TextSettings.Font.StyleExt = {00050000000000000004000000}
+      end
+      inherited txtHora1: TText
+        TextSettings.Font.StyleExt = {00050000000000000004000000}
+      end
+      inherited txtTitulo1: TText
+        Size.Width = 250.000000000000000000
+        TextSettings.Font.StyleExt = {00050000000000000004000000}
+      end
+      inherited lnTarefa1: TLine
+        Size.Width = 430.000000000000000000
+      end
+    end
+  end
+end

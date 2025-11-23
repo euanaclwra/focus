@@ -1,0 +1,68 @@
+inherited frmTarefas_Windows: TfrmTarefas_Windows
+  DesignerMasterStyle = 0
+  inherited imgLogo: TImage
+    MultiResBitmap.Height = 1024
+    MultiResBitmap.Width = 1024
+  end
+  inherited txtTarefas: TText
+    TextSettings.Font.StyleExt = {00060000000000000004000000}
+  end
+  inherited StyleBook1: TStyleBook [2]
+  end
+  inherited ltGrid: TLayout [3]
+    Margins.Top = 10.000000000000000000
+    Size.Height = 301.000000000000000000
+    inherited ltHeader: TLayout
+      Margins.Left = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Size.Width = 600.000000000000000000
+      inherited txtData: TText
+        TextSettings.Font.StyleExt = {00050000000000000004000000}
+      end
+      inherited txtHora: TText
+        TextSettings.Font.StyleExt = {00050000000000000004000000}
+      end
+      inherited txtTitulo: TText
+        Size.Width = 420.000000000000000000
+        TextSettings.Font.StyleExt = {00050000000000000004000000}
+      end
+      inherited lnHeader: TLine
+        Size.Width = 600.000000000000000000
+      end
+    end
+    inherited ltTarefa1: TLayout
+      inherited txtData1: TText
+        TextSettings.Font.StyleExt = {00050000000000000004000000}
+      end
+      inherited txtHora1: TText
+        TextSettings.Font.StyleExt = {00050000000000000004000000}
+      end
+      inherited txtTitulo1: TText
+        TextSettings.Font.StyleExt = {00050000000000000004000000}
+      end
+    end
+    inherited ltTarefa2: TLayout
+      inherited txtData2: TText
+        TextSettings.Font.StyleExt = {00050000000000000004000000}
+      end
+      inherited txtHora2: TText
+        TextSettings.Font.StyleExt = {00050000000000000004000000}
+      end
+      inherited txtTitulo2: TText
+        TextSettings.Font.StyleExt = {00050000000000000004000000}
+      end
+    end
+    inherited ltTarefa3: TLayout
+      inherited txtData3: TText
+        TextSettings.Font.StyleExt = {00050000000000000004000000}
+      end
+      inherited txtHora3: TText
+        TextSettings.Font.StyleExt = {00050000000000000004000000}
+      end
+      inherited txtTitulo3: TText
+        TextSettings.Font.StyleExt = {00050000000000000004000000}
+      end
+    end
+  end
+end
