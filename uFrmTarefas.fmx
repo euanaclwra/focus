@@ -6,6 +6,7 @@ object frmTarefas: TfrmTarefas
   ClientWidth = 640
   Fill.Kind = Solid
   StyleBook = StyleBook1
+  WindowState = wsMaximized
   FormFactor.Width = 320
   FormFactor.Height = 480
   FormFactor.Devices = [Desktop]
@@ -6112,7 +6113,6 @@ object frmTarefas: TfrmTarefas
     TextSettings.Font.Size = 16.000000000000000000
     TextSettings.Font.StyleExt = {00060000000000000004000000}
     TextSettings.FontColor = xFF562D85
-    TextSettings.HorzAlign = Leading
   end
   object ltGrid: TLayout
     Align = Client

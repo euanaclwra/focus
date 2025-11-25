@@ -5,6 +5,7 @@ object dataFrmTarefa: TdataFrmTarefa
   ClientHeight = 599
   ClientWidth = 530
   Fill.Kind = Solid
+  Position = ScreenCenter
   FormFactor.Width = 320
   FormFactor.Height = 480
   FormFactor.Devices = [Desktop]
@@ -6213,7 +6214,6 @@ object dataFrmTarefa: TdataFrmTarefa
     TextSettings.Font.Size = 16.000000000000000000
     TextSettings.Font.StyleExt = {00060000000000000004000000}
     TextSettings.FontColor = xFF562D85
-    TextSettings.HorzAlign = Leading
   end
   object ltTitulo: TLayout
     Align = Top

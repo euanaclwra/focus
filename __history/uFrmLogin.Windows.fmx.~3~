@@ -1,0 +1,63 @@
+inherited frmLogin_Windows: TfrmLogin_Windows
+  ClientHeight = 515
+  ClientWidth = 743
+  DesignerMasterStyle = 0
+  inherited imgLogo: TImage
+    MultiResBitmap.Height = 1024
+    MultiResBitmap.Width = 1024
+    Size.Width = 743.000000000000000000
+  end
+  inherited ltForm: TScaledLayout
+    OriginalWidth = 743.000000000000000000
+    OriginalHeight = 386.000000000000000000
+    Size.Width = 743.000000000000000000
+    Size.Height = 386.000000000000000000
+    inherited ltLogin: TLayout
+      Size.Width = 743.000000000000000000
+      inherited edtLogin: TEdit
+        Size.Width = 543.000000000000000000
+        inherited txtLogin: TText
+          Size.Width = 543.000000000000000000
+        end
+        inherited lnLogin: TLine
+          Size.Width = 543.000000000000000000
+        end
+      end
+    end
+    inherited ltEntrar: TLayout
+      Align = Bottom
+      Size.Width = 743.000000000000000000
+      Size.Height = 224.000000000000000000
+      inherited ltBotaoCentro: TLayout
+        inherited btnEntrar: TButton
+          Margins.Left = 100.000000000000000000
+          Margins.Top = 70.000000000000000000
+          Margins.Right = 100.000000000000000000
+          Margins.Bottom = 70.000000000000000000
+          Size.Width = 100.000000000000000000
+          Size.Height = 0.000000000000000000
+          TextSettings.Font.StyleExt = {00050000000000000004000000}
+          inherited rtEntrar: TRectangle
+            Size.Width = 100.000000000000000000
+            Size.Height = 0.000000000000000000
+            inherited txtEntrar: TText
+              TextSettings.Font.StyleExt = {00050000000000000004000000}
+            end
+          end
+        end
+      end
+    end
+    inherited ltSenha: TLayout
+      Size.Width = 743.000000000000000000
+      inherited edtSenha: TEdit
+        Size.Width = 543.000000000000000000
+        inherited txtSenha: TText
+          Size.Width = 543.000000000000000000
+        end
+        inherited lnSenha: TLine
+          Size.Width = 543.000000000000000000
+        end
+      end
+    end
+  end
+end

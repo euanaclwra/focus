@@ -2,9 +2,10 @@ object frmLogin: TfrmLogin
   Left = 0
   Top = 0
   Caption = 'Login'
-  ClientHeight = 480
-  ClientWidth = 640
+  ClientHeight = 477
+  ClientWidth = 650
   Fill.Kind = Solid
+  WindowState = wsMaximized
   FormFactor.Width = 320
   FormFactor.Height = 480
   FormFactor.Devices = [Desktop]
@@ -6092,20 +6093,20 @@ object frmLogin: TfrmLogin
           'o-focus.png'
       end>
     Align = Top
-    Size.Width = 640.000000000000000000
+    Size.Width = 650.000000000000000000
     Size.Height = 129.000000000000000000
     Size.PlatformDefault = False
   end
   object ltForm: TScaledLayout
-    Align = Client
-    OriginalWidth = 640.000000000000000000
-    OriginalHeight = 351.000000000000000000
-    Size.Width = 640.000000000000000000
-    Size.Height = 351.000000000000000000
+    Align = Center
+    OriginalWidth = 500.000000000000000000
+    OriginalHeight = 348.000000000000000000
+    Size.Width = 500.000000000000000000
+    Size.Height = 348.000000000000000000
     Size.PlatformDefault = False
     object ltLogin: TLayout
       Align = Top
-      Size.Width = 640.000000000000000000
+      Size.Width = 500.000000000000000000
       Size.Height = 81.000000000000000000
       Size.PlatformDefault = False
       TabOrder = 1
@@ -6120,7 +6121,7 @@ object frmLogin: TfrmLogin
         Margins.Top = 25.000000000000000000
         Margins.Right = 100.000000000000000000
         Margins.Bottom = 25.000000000000000000
-        Size.Width = 440.000000000000000000
+        Size.Width = 300.000000000000000000
         Size.Height = 31.000000000000000000
         Size.PlatformDefault = False
         StyledSettings = [Style, FontColor]
@@ -6131,7 +6132,7 @@ object frmLogin: TfrmLogin
           HitTest = False
           Margins.Top = -20.000000000000000000
           Position.Y = -20.000000000000000000
-          Size.Width = 31.713335037231450000
+          Size.Width = 300.000000000000000000
           Size.Height = 12.190000534057620000
           Size.PlatformDefault = False
           Text = 'Login'
@@ -6146,7 +6147,7 @@ object frmLogin: TfrmLogin
           HitTest = False
           LineType = Bottom
           Position.Y = -19.000000000000000000
-          Size.Width = 440.000000000000000000
+          Size.Width = 300.000000000000000000
           Size.Height = 50.000000000000000000
           Size.PlatformDefault = False
           Stroke.Color = xFF532C83
@@ -6155,47 +6156,51 @@ object frmLogin: TfrmLogin
     end
     object ltEntrar: TLayout
       Align = Client
-      Size.Width = 640.000000000000000000
-      Size.Height = 189.000000000000000000
+      Size.Width = 500.000000000000000000
+      Size.Height = 186.000000000000000000
       Size.PlatformDefault = False
       TabOrder = 2
-      object btnEntrar: TButton
-        Align = Client
-        StyledSettings = [FontColor]
-        Margins.Left = 100.000000000000000000
-        Margins.Top = 70.000000000000000000
-        Margins.Right = 100.000000000000000000
-        Margins.Bottom = 70.000000000000000000
-        Size.Width = 440.000000000000000000
-        Size.Height = 49.000000000000000000
+      object ltBotaoCentro: TLayout
+        Align = Center
+        Size.Width = 300.000000000000000000
+        Size.Height = 50.000000000000000000
         Size.PlatformDefault = False
         TabOrder = 0
-        TextSettings.Font.Family = 'Montserrat'
-        TextSettings.Font.Size = 14.000000000000000000
-        TextSettings.Font.StyleExt = {00050000000000000004000000}
-        TextSettings.Trimming = None
-        OnClick = btnEntrarClick
-        object rtEntrar: TRectangle
+        object btnEntrar: TButton
           Align = Client
           Cursor = crHandPoint
-          Fill.Color = xFF532C83
-          HitTest = False
-          Size.Width = 440.000000000000000000
-          Size.Height = 49.000000000000000000
+          StyledSettings = [FontColor]
+          Size.Width = 300.000000000000000000
+          Size.Height = 50.000000000000000000
           Size.PlatformDefault = False
-          Stroke.Kind = None
-          Stroke.Thickness = 0.000000000000000000
-          object txtEntrar: TText
-            Align = Center
+          TabOrder = 0
+          TextSettings.Font.Family = 'Montserrat'
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.Font.StyleExt = {00050000000000000004000000}
+          TextSettings.Trimming = None
+          OnClick = btnEntrarClick
+          object rtEntrar: TRectangle
+            Align = Client
+            Cursor = crHandPoint
+            Fill.Color = xFF532C83
             HitTest = False
-            Size.Width = 87.000000000000000000
+            Size.Width = 300.000000000000000000
             Size.Height = 50.000000000000000000
             Size.PlatformDefault = False
-            Text = 'Entrar'
-            TextSettings.Font.Family = 'Montserrat'
-            TextSettings.Font.Size = 14.000000000000000000
-            TextSettings.Font.StyleExt = {00050000000000000004000000}
-            TextSettings.FontColor = claWhite
+            Stroke.Kind = None
+            Stroke.Thickness = 0.000000000000000000
+            object txtEntrar: TText
+              Align = Center
+              HitTest = False
+              Size.Width = 87.000000000000000000
+              Size.Height = 50.000000000000000000
+              Size.PlatformDefault = False
+              Text = 'Entrar'
+              TextSettings.Font.Family = 'Montserrat'
+              TextSettings.Font.Size = 14.000000000000000000
+              TextSettings.Font.StyleExt = {00050000000000000004000000}
+              TextSettings.FontColor = claWhite
+            end
           end
         end
       end
@@ -6203,7 +6208,7 @@ object frmLogin: TfrmLogin
     object ltSenha: TLayout
       Align = Top
       Position.Y = 81.000000000000000000
-      Size.Width = 640.000000000000000000
+      Size.Width = 500.000000000000000000
       Size.Height = 81.000000000000000000
       Size.PlatformDefault = False
       TabOrder = 0
@@ -6219,7 +6224,7 @@ object frmLogin: TfrmLogin
         Margins.Top = 25.000000000000000000
         Margins.Right = 100.000000000000000000
         Margins.Bottom = 25.000000000000000000
-        Size.Width = 440.000000000000000000
+        Size.Width = 300.000000000000000000
         Size.Height = 31.000000000000000000
         Size.PlatformDefault = False
         StyledSettings = [Style, FontColor]
@@ -6230,7 +6235,7 @@ object frmLogin: TfrmLogin
           HitTest = False
           Margins.Top = -20.000000000000000000
           Position.Y = -20.000000000000000000
-          Size.Width = 34.943332672119140000
+          Size.Width = 300.000000000000000000
           Size.Height = 12.190000534057620000
           Size.PlatformDefault = False
           Text = 'Senha'
@@ -6245,7 +6250,7 @@ object frmLogin: TfrmLogin
           HitTest = False
           LineType = Bottom
           Position.Y = -19.000000000000000000
-          Size.Width = 440.000000000000000000
+          Size.Width = 300.000000000000000000
           Size.Height = 50.000000000000000000
           Size.PlatformDefault = False
           Stroke.Color = xFF532C83

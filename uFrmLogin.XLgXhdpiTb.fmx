@@ -18,6 +18,9 @@ inherited frmLogin_XLgXhdpiTb: TfrmLogin_XLgXhdpiTb
         Opacity = 0.000000000000000000
         Size.Width = 600.000000000000000000
         Size.Height = 32.000000000000000000
+        inherited txtLogin: TText
+          Size.Width = 600.000000000000000000
+        end
         inherited lnLogin: TLine
           Position.Y = -18.000000000000000000
           Size.Width = 600.000000000000000000
@@ -27,16 +30,21 @@ inherited frmLogin_XLgXhdpiTb: TfrmLogin_XLgXhdpiTb
     inherited ltEntrar: TLayout
       Size.Width = 800.000000000000000000
       Size.Height = 964.000000000000000000
-      inherited btnEntrar: TButton
-        Size.Width = 600.000000000000000000
-        Size.Height = 824.000000000000000000
-        TextSettings.Font.StyleExt = {00050000000000000004000000}
-        inherited rtEntrar: TRectangle
-          Corners = [TopRight, BottomLeft, BottomRight]
-          Size.Width = 600.000000000000000000
-          Size.Height = 824.000000000000000000
-          inherited txtEntrar: TText
-            TextSettings.Font.StyleExt = {00050000000000000004000000}
+      inherited ltBotaoCentro: TLayout
+        inherited btnEntrar: TButton
+          Margins.Left = 100.000000000000000000
+          Margins.Top = 70.000000000000000000
+          Margins.Right = 100.000000000000000000
+          Margins.Bottom = 70.000000000000000000
+          Size.Width = 100.000000000000000000
+          Size.Height = 0.000000000000000000
+          TextSettings.Font.StyleExt = {00050000000000000004000000}
+          inherited rtEntrar: TRectangle
+            Size.Width = 100.000000000000000000
+            Size.Height = 0.000000000000000000
+            inherited txtEntrar: TText
+              TextSettings.Font.StyleExt = {00050000000000000004000000}
+            end
           end
         end
       end
@@ -46,6 +54,9 @@ inherited frmLogin_XLgXhdpiTb: TfrmLogin_XLgXhdpiTb
       inherited edtSenha: TEdit
         Size.Width = 600.000000000000000000
         Size.Height = 32.000000000000000000
+        inherited txtSenha: TText
+          Size.Width = 600.000000000000000000
+        end
         inherited lnSenha: TLine
           Position.Y = -18.000000000000000000
           Size.Width = 600.000000000000000000

@@ -24,6 +24,7 @@ type
     txtSenha: TText;
     lnLogin: TLine;
     lnSenha: TLine;
+    ltBotaoCentro: TLayout;
     procedure btnEntrarClick(Sender: TObject);
   end;
 

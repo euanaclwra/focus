@@ -11,9 +11,7 @@ inherited frmTarefas_NmXhdpiPh: TfrmTarefas_NmXhdpiPh
     Size.Width = 380.000000000000000000
     TextSettings.Font.StyleExt = {00060000000000000004000000}
   end
-  inherited StyleBook1: TStyleBook [2]
-  end
-  inherited ltGrid: TLayout [3]
+  inherited ltGrid: TLayout
     Margins.Top = 10.000000000000000000
     Size.Width = 380.000000000000000000
     Size.Height = 436.000000000000000000
