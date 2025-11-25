@@ -2,26 +2,26 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2025/11/22 17:09:57.000.027,=C:\Users\Oem\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2025/11/22 17:10:20.000.324,C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus.dproj=C:\Users\Oem\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
-    <Transaction>2025/11/22 17:11:03.000.964,C:\Users\Oem\Documents\Embarcadero\Studio\Projects\login.pas=C:\Users\Oem\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2025/11/22 17:11:03.000.964,C:\Users\Oem\Documents\Embarcadero\Studio\Projects\login.fmx=C:\Users\Oem\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
-    <Transaction>2025/11/22 17:11:23.000.777,C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus\login.fmx=C:\Users\Oem\Documents\Embarcadero\Studio\Projects\login.fmx</Transaction>
-    <Transaction>2025/11/22 17:11:23.000.777,C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus\login.pas=C:\Users\Oem\Documents\Embarcadero\Studio\Projects\login.pas</Transaction>
-    <Transaction>2025/11/22 17:17:09.000.746,C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus\focus.dproj=C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus.dproj</Transaction>
+    <Transaction>2025/11/22 17:10:20.000.324,C:\Users\Oem\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus.dproj</Transaction>
+    <Transaction>2025/11/22 17:11:03.000.964,C:\Users\Oem\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\Oem\Documents\Embarcadero\Studio\Projects\login.fmx</Transaction>
+    <Transaction>2025/11/22 17:11:03.000.964,C:\Users\Oem\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Oem\Documents\Embarcadero\Studio\Projects\login.pas</Transaction>
+    <Transaction>2025/11/22 17:11:23.000.777,C:\Users\Oem\Documents\Embarcadero\Studio\Projects\login.fmx=C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus\login.fmx</Transaction>
+    <Transaction>2025/11/22 17:11:23.000.777,C:\Users\Oem\Documents\Embarcadero\Studio\Projects\login.pas=C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus\login.pas</Transaction>
+    <Transaction>2025/11/22 17:17:09.000.746,C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus.dproj=C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus\focus.dproj</Transaction>
     <Transaction>2025/11/22 18:05:29.000.879,=C:\Users\Oem\Downloads\Montserrat\montserrat.ttf</Transaction>
-    <Transaction>2025/11/22 18:10:45.764,=C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus\montserrat.ttf</Transaction>
-    <Transaction>2025/11/22 20:17:40.117,=C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus\Unit1.pas</Transaction>
-    <Transaction>2025/11/22 20:19:03.196,C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus\uFrmLogin.fmx=C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus\login.fmx</Transaction>
-    <Transaction>2025/11/22 20:19:03.196,C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus\uFrmLogin.pas=C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus\login.pas</Transaction>
-    <Transaction>2025/11/22 20:19:37.570,C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus\uFrmTarefas.pas=C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus\Unit1.pas</Transaction>
-    <Transaction>2025/11/22 20:19:37.570,C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus\uFrmTarefas.fmx=C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus\Unit1.fmx</Transaction>
-    <Transaction>2025/11/22 21:31:53.706,=C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus\Unit1.pas</Transaction>
-    <Transaction>2025/11/22 21:32:24.578,C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus\uFrmTarefa1.fmx=C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus\Unit1.fmx</Transaction>
-    <Transaction>2025/11/22 21:32:24.578,C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus\uFrmTarefa1.pas=C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus\Unit1.pas</Transaction>
-    <Transaction>2025/11/22 21:54:22.949,C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus\uDataFrmTarefa.fmx=C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus\uFrmTarefa1.fmx</Transaction>
-    <Transaction>2025/11/22 21:54:22.949,C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus\uDataFrmTarefa.pas=C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus\uFrmTarefa1.pas</Transaction>
+    <Transaction>2025/11/22 18:10:45.000.764,=C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus\montserrat.ttf</Transaction>
+    <Transaction>2025/11/22 20:17:40.000.117,=C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus\Unit1.pas</Transaction>
+    <Transaction>2025/11/22 20:19:03.000.196,C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus\login.pas=C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus\uFrmLogin.pas</Transaction>
+    <Transaction>2025/11/22 20:19:03.000.196,C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus\login.fmx=C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus\uFrmLogin.fmx</Transaction>
+    <Transaction>2025/11/22 20:19:37.000.570,C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus\Unit1.fmx=C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus\uFrmTarefas.fmx</Transaction>
+    <Transaction>2025/11/22 20:19:37.000.570,C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus\Unit1.pas=C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus\uFrmTarefas.pas</Transaction>
+    <Transaction>2025/11/22 21:31:53.000.706,=C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus\Unit1.pas</Transaction>
+    <Transaction>2025/11/22 21:32:24.000.578,C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus\Unit1.pas=C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus\uFrmTarefa1.pas</Transaction>
+    <Transaction>2025/11/22 21:32:24.000.578,C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus\Unit1.fmx=C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus\uFrmTarefa1.fmx</Transaction>
+    <Transaction>2025/11/22 21:54:22.000.949,C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus\uFrmTarefa1.fmx=C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus\uDataFrmTarefa.fmx</Transaction>
+    <Transaction>2025/11/22 21:54:22.000.949,C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus\uFrmTarefa1.pas=C:\Users\Oem\Documents\Embarcadero\Studio\Projects\focus\uDataFrmTarefa.pas</Transaction>
   </Transactions>
 	<ActiveMobileDevice>
-		<NoProfile Android64="RQCW302TQRH" Android="RQCW302TQRH"/>
+		<NoProfile Android64="" Android=""/>
 	</ActiveMobileDevice>
 </BorlandProject>
